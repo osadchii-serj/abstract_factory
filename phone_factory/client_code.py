@@ -11,21 +11,8 @@ from phones import NokiaXR21
 
 from random import choice
 
-list_phones = [
-    XiaomiRedmiNote13(),
-    SamsungGalaxyS24(),
-    AppleIPhone15Pro(),
-    HuaweiMate60Pro(),
-    AppleIPhone13Pro(),
-    GooglePixel8Pro(),
-    HuaweiNova12(),
-    SiemensME45(),
-    NokiaXR21(),
-]
-
 
 def client_code(factory: PhoneComponentsFactory):
-
     print()
     print(factory.create_model())
     print(factory.create_a_camera().permission())
@@ -35,5 +22,19 @@ def client_code(factory: PhoneComponentsFactory):
     print("=" * 50)
 
 
-for _ in range(20):
-    client_code(choice(list_phones))
+if __name__ == "__main__":
+
+    list_phones = [
+        XiaomiRedmiNote13(),
+        SamsungGalaxyS24(),
+        AppleIPhone15Pro(),
+        HuaweiMate60Pro(),
+        AppleIPhone13Pro(),
+        GooglePixel8Pro(),
+        HuaweiNova12(),
+        SiemensME45(),
+        NokiaXR21(),
+    ]
+
+    for _ in range(20):
+        client_code(choice(list_phones))
