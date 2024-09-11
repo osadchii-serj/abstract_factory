@@ -1,4 +1,4 @@
-# Фабричный метод
+# Абстрактная Фабрика
 
 >Реализация паттерна - "Абстрактная Фабрика" - учебный репозиторий.
 
@@ -12,4 +12,4 @@
 - phones - сборка телефонов
 
 
-![Image alt](https://github.com/osadchii-serj/factory_method/raw/main/coffee_shop/img/CoffeeShop.svg)
+![Image alt](https://github.com/osadchii-serj/abstract_factory/raw/main/phone_factory/svg/phone_factory.svg)
